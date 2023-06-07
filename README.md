@@ -20,22 +20,16 @@ Before running the script, ensure that you have the following prerequisites:
 
 pip install torch spacy gingerit transformers
 
-arduino
-Copy code
 
 3. Download the BERT pre-trained model by running the following command:
 
 python -m transformers.cli.download bert-base-uncased
 
-sql
-Copy code
 
 4. Download the spaCy language model by running the following command:
 
 python -m spacy download en_core_web_sm-3.0.0
 
-bash
-Copy code
 
 ## Usage
 
@@ -47,8 +41,6 @@ Copy code
 
 python token_healing.py
 
-vbnet
-Copy code
 
 4. Enter the text you want to enhance when prompted.
 
@@ -62,8 +54,6 @@ $ python token_healing.py
 Enter text: Ths is an exmpl of inccrect txt.
 Enhanced text: This is an example of incorrect text.
 
-vbnet
-Copy code
 
 ## Customization
 

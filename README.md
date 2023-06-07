@@ -30,6 +30,8 @@ python -m transformers.cli.download bert-base-uncased
 
 python -m spacy download en_core_web_sm-3.0.0
 
+5. In file main.py change the line 20.
+
 
 ## Usage
 

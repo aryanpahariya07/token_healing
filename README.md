@@ -38,7 +38,6 @@ python -m spacy download en_core_web_sm-3.0.0
 2. Navigate to the directory where the script file is located.
 
 3. Run the script using the following command:
-
 main.py
 
 
@@ -49,7 +48,6 @@ main.py
 ## Example
 
 Here's an example usage of the script:
-
 $ main.py
 
 Enter text: Ths is an exmpl of inccrect txt.

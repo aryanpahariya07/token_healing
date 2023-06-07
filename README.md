@@ -39,7 +39,7 @@ python -m spacy download en_core_web_sm-3.0.0
 
 3. Run the script using the following command:
 
-python token_healing.py
+main.py
 
 
 4. Enter the text you want to enhance when prompted.
@@ -50,8 +50,10 @@ python token_healing.py
 
 Here's an example usage of the script:
 
-$ python token_healing.py
+$ main.py
+
 Enter text: Ths is an exmpl of inccrect txt.
+
 Enhanced text: This is an example of incorrect text.
 
 
